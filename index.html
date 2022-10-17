@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=715f98fc-c5ad-4136-9f6c-124b976fcb62&lang=ru_RU"
+		type="text/javascript">
+		</script>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="map" id="map">
+			<div class="information">
+				<input type="text" class="cityName" placeholder="City name">
+				<button>Прогноз погоды</button>
+			</div>
+			<div class="weather-block">
+				<h2 class="cityName"></h2>
+				<p class="today"></p>
+				<div class="weather-condition">
+					<p class="degrees"></p>
+					<p class="condition"></p>
+				</div>
+				<div class="weatherTiime">
+
+					<div class="weatherTime__item">
+						<p class="weatherTime__item_time"></p>
+						<img src="" alt="" class="weatherTime__item_icon">
+						<p class="weatherTime__item_degrees"></p>
+					</div>
+					<div class="weatherTime__item">
+						<p class="weatherTime__item_time"></p>
+						<img src="" alt="" class="weatherTime__item_icon">
+						<p class="weatherTime__item_degrees"></p>
+					</div>
+					<div class="weatherTime__item">
+						<p class="weatherTime__item_time"></p>
+						<img src="" alt="" class="weatherTime__item_icon">
+						<p class="weatherTime__item_degrees"></p>
+					</div>
+					<div class="weatherTime__item">
+						<p class="weatherTime__item_time"></p>
+						<img src="" alt="" class="weatherTime__item_icon">
+						<p class="weatherTime__item_degrees"></p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>

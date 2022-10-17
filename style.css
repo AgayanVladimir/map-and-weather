@@ -1,0 +1,120 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(https://vsluh.net/uploads/posts/2016-06/org_ynxq467.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100vh;
+
+}
+
+.container {
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+.weather-block {
+	background: url(https://phonoteka.org/uploads/posts/2022-01/1643617813_54-phonoteka-org-p-fon-zoloto-glyanets-57.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 30px;
+	color: white;
+	border-radius: 50px;
+	position: absolute;
+	z-index: 999;
+	right: 180px;
+
+}
+
+.cityName {
+
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.today {
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.weather-condition {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.degrees {
+	font-size: 20px;
+
+
+}
+
+.condition {
+	font-size: 20px;
+
+	word-spacing: 10px;
+	letter-spacing: 3px;
+}
+
+.weatherTiime {
+	display: flex;
+	justify-content: space-between;
+}
+
+.weatherTime__item {
+	width: 25%;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+
+
+}
+
+.weatherTime__item_time {
+	margin-bottom: 10px;
+}
+
+.weatherTime__item_icon {
+	margin-bottom: 10px;
+}
+
+.information {
+	margin-top: 50px;
+	display: flex;
+	align-items: bottom;
+	gap: 20px;
+	position: absolute;
+	z-index: 999;
+	top: 500px;
+	left: 180px;
+
+}
+
+.cityName {
+	padding: 5px;
+}
+
+button {
+	padding: 0px 10px;
+	max-height: 50px;
+	border-radius: 10px;
+	font-size: 24px;
+
+}
+
+.ymaps-2-1-79-map {
+	width: 100%;
+	min-height: 700px;
+	position: relative;
+
+}
